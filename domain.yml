@@ -1,0 +1,34 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Xin chào, tôi có thể giúp gì cho bạn?"
+
+  utter_cheer_up:
+  - text: "Tôi cảm thấy rất vui vì nhận được đóng góp từ bạn"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Nó có hữu ích cho bạn hay không?"
+
+  utter_happy:
+  - text: "Tuyệt! Tiếp tục thôi nào!"
+
+  utter_goodbye:
+  - text: "Tạm biệt!"
+
+  utter_iamabot:
+  - text: "Tôi là JAVis-BE được phát triển bởi AI Team của BAP"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

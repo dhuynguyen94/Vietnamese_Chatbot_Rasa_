@@ -1,0 +1,76 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - xin chào
+    - chào em
+
+- intent: goodbye
+  examples: |
+    - bye
+    - tạm biệt em
+    - tạm biệt
+
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - đương nhiên rồi
+    - tất nhiên rồi
+    - chắc chắn rồi
+    - chính xác
+    - hoàn toàn đúng
+    - 100% là đúng
+    - chuẩn không cần chỉnh, chỉnh là sai luôn
+
+- intent: deny
+  examples: |
+    - không được rồi
+    - không
+    - rất khó để được
+    - tôi nghĩ là không được
+    - không có cách nào để được cả
+    - thật sự rất khó
+    - hoàn toàn là không thể được
+
+- intent: mood_great
+  examples: |
+    - hoàn hảo
+    - tuyêt vời
+    - tuyệt đỉnh
+    - tuyệt
+    - cừ lắm
+    - tốt lắm
+    - tôi cảm thấy thật sự tuyệt vời
+    - quá ư là tuyệt vời
+    - tôi cảm thấy như mình có thể cứu cả thế giới
+    - tuyệt đỉnh Kungfu luôn!
+    - quá ư là hoàn hảo
+    - 100% hoàn hảo
+
+- intent: mood_unhappy
+  examples: |
+    - thật là tồi tệ
+    - mọi thứ như đang sụp đỗ
+    - tôi cảm thấy rất tồi tệ
+    - tôi cảm thấy thực sự thất vọng
+    - siêu buồn
+    - tôi thực sự rất buồn
+    - buồn quá
+    - quá buồn
+    - không tốt
+
+
+- intent: bot_challenge
+  examples: |
+    - mày là người máy phải không?
+    - mày là người thật phải không
+    - mày là người máy hay người thật?
+    - tao đang nói chuyện với ai đây?
+    - cho hỏi bạn là ai?
+    - cho hỏi tôi đang nói chuyện với ai?
+    - tao đang nói chuyện với ai đây?
